@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:id="@+id/backgroud"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/texte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Hello World!"
+        android:textColor="#FF5722"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="#54EF59"
+        android:padding="10dp"
+        android:rotationX="9000"
+        android:text="click to change the tex  color"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:background="#54EF59"
+        android:padding="10dp"
+        android:rotationX="9000"
+        android:text="click to change the background  color"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="263dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="170dp"
+        android:background="#54EF59"
+        android:padding="10dp"
+        android:rotationX="9000"
+        android:text="click to change the text"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="255dp"
+        android:layout_height="49dp"
+        android:layout_above="@+id/button4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:background="#000000"
+        android:ems="10"
+        android:textAlignment="center"
+        android:hint="create your own text"
+        android:inputType="textPersonName"
+        android:textColor="#0FFFFF"
+        android:textSize="19sp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="263dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/editText"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="250dp"
+        android:background="#54EF59"
+        android:padding="10dp"
+        android:rotationX="9000"
+        android:text="click to change the text"
+        android:textSize="18sp" />
+
+
+
+</RelativeLayout>
